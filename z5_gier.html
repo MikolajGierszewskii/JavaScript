@@ -1,0 +1,41 @@
+<script>
+
+    {
+        document.write("Wykonał: Mikołaj Gierszewski numer w dzienniku 10 ".fontcolor("red").fontsize("6").bold()+"<br>");
+     }
+     {
+        document.write(" czyli mam układ [10 mod 4 = 2] czyli układ 2 ".fontcolor("red").fontsize("6").bold()+"<br>");
+     }
+    
+     function WinOpen_gierszewski1() 
+     {
+    window.open("grafika1_gie.html","okienko_z5_1","toolbar=no,directories=no,menubar=no,height=380,width=160,top=-400,left=150");
+     }
+     function WinOpen_gierszewski2() 
+     {
+    window.open("grafika2_gie.html","okienko_z5_2","toolbar=no,directories=no,menubar=no,height=380,width=160,top=550,left=150");
+     }
+     function WinOpen_gierszewski3() 
+     {
+    window.open("grafika3_gie.html","okienko_z5_3","toolbar=no,directories=no,menubar=no,height=380,width=160,top=-400,left=1550");
+     }
+     function WinOpen_gierszewski4() 
+     {
+    window.open("grafika4_gie.html","okienko_z5_4","toolbar=no,directories=no,menubar=no,height=380,width=160,top=550,left=1550");
+     }
+    function okno_zamknij_gierszewski() 
+     {
+     window.close()
+     }
+    
+    </script>
+    <form>
+      <input type="button" name="zadanie3" value="grafika1" onclick="WinOpen_gierszewski1(' ')">
+      <input type="button" name="zadanie4" value="grafika2" onclick="WinOpen_gierszewski2(' ')">
+      <input type="button" name="zadanie5" value="grafika3" onclick="WinOpen_gierszewski3(' ')">
+      <input type="button" name="zadanie5" value="grafika4" onclick="WinOpen_gierszewski4(' ')"><br><br><br>
+      <input type="button" value="zamknij okno" onclick="okno_zamknij_gierszewski()"/>
+      
+      </form>
+
+
